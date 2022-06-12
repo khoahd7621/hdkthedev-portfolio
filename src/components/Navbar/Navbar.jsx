@@ -6,7 +6,8 @@ import { images } from '../../constants';
 import './Navbar.scss';
 
 const Navbar = () => {
-  const [toggle, setToggle] = useState(false)
+  const [toggle, setToggle] = useState(false);
+  const [active, setActive] = useState('#home');
 
   return (
     <nav className="app__navbar">
@@ -15,7 +16,10 @@ const Navbar = () => {
       </div>
       <ul className='app__navbar-links'>
           {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
-            <li className="app__flex p-text" key={`link-${item}`}>
+            <li className={`app__flex p-text ${active === `#${item}` ? "active" : ""}`}
+             key={`link-${item}`}
+             onClick={() => setActive(`#${item}`)}
+            >
               <div />
               <a href={`#${item}`}>{item}</a>
             </li>
@@ -35,7 +39,9 @@ const Navbar = () => {
 
                   <ul className='app__navbar-links'>
                     {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
-                      <li key={item}>
+                      <li key={item}
+                        onClick={() => setActive(`#${item}`)}
+                      >
                         <a href={`#${item}`} onClick={() => setToggle(false)}>{item}</a>
                       </li>
                     ))}

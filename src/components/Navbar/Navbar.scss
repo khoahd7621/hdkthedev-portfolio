@@ -21,7 +21,7 @@
 
   img {
     width: 90px;
-    height: 20px;
+    height: 40px;
 
     @media screen and (min-width: 2000px) {
       width: 180px;
@@ -72,6 +72,16 @@
       div {
         background: var(--secondary-color);
       }
+    }
+  }
+
+  .active {
+    div {
+      background: var(--secondary-color);
+    }
+
+    a {
+      color: var(--secondary-color);
     }
   }
 
