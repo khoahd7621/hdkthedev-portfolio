@@ -6,7 +6,7 @@ Live Demo: :point_right: [here]()
 - This application (hdkthedev portfolio) was built using React for front-end & Sanity for back-end.
 
 ### Screen shot website demo
-<img  src=""  alt="Demo image"  width="45%"></img> 
+<img  src="https://github.com/khoahd7621/hdkthedev-portfolio/blob/main/images/demo.png"  alt="Demo image"  width="45%"></img> 
 
 ### Learn more
 - Updating ...
