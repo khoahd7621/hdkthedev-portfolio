@@ -11,5 +11,5 @@ Live Demo: :point_right: [here]()
 ### Learn more
 - Updating ...
 
-#### © 2021 khoahd7621 | Hoang Dang Khoa
+#### © 2022 khoahd7621 | Hoang Dang Khoa
 > :love_you_gesture: Feel free to use my repository and star it if you find something interesting :love_you_gesture:
