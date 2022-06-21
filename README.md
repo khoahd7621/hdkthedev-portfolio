@@ -1,6 +1,6 @@
 # 🐍 Welcome to My portfolio web application 🐍
 
-Live Demo: :point_right: [here]()
+Live Demo: :point_right: [here](https://hdkthedev-portfolio.netlify.app/)
 
 ### Description:
 - This application (hdkthedev portfolio) was built using React for front-end & Sanity for back-end.
